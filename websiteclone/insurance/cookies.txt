@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.sfglife.com	TRUE	/	FALSE	1999999999	__cfduid	d1bfb634dbd5ffd80790eb5f11d3550801588204217
+www.sfglife.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.sfglife.com	TRUE	/	FALSE	1999999999	django_language	en
+.rawgit.com	TRUE	/	FALSE	1999999999	__cfduid	df066ecadae9f05e488987c46528e846d1588204270
+rawgit.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.sfglife.com	TRUE	/	FALSE	1999999999	csrftoken	6v9gLr1Lz6ukWjBBkMWMIFPn51g1I4g0tWyrvzfNiDfe4foOQnyvEvS3cHpwY79B
+

@@ -1,0 +1,812 @@
+/* Mortgage-protection.css */
+
+.sfg2020 {
+    color: #000000;
+}
+
+.sfg2020 p,
+.sfg2020 ul li {
+    font-size: 1.35em;
+    line-height: 1.55em;
+}
+
+.sfg2020 .banner__block {
+    border-bottom: solid 1px #cccccc;
+}
+
+.about .sfg2020 .banner__block {
+    border-top: solid 1px #cccccc;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.sfg2020 h1 {
+    font-weight: 800;
+    font-size: 3.25em;
+    line-height: 1.3;
+    margin-top: 9px;
+    margin-bottom: 22px;
+    color: #000;
+}
+
+.about-us .sfg2020 h1 {
+    margin-top: 0
+}
+
+
+.sfg2020 h2 {
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 18px !important;
+}
+
+.sfg2020 h2.text-light {
+    font-weight: 500;
+    font-size: 2.25em;
+    letter-spacing: .03em;
+}
+
+.sfg2020 h1::after {
+    display: block;
+    width: 84px;
+    height: 13px;
+    content: " ";
+    background-color: #4cbdf9;
+    margin-top: 7px;
+}
+
+.sfg2020 h2::after {
+    display: block;
+    width: 46px;
+    height: 5px;
+    content: " ";
+    background-color: #4cbdf9;
+    margin: 4px auto;
+}
+
+.sfg2020 h4.blue-rule{
+    font-weight:600;
+}
+.sfg2020 h4.blue-rule::after {
+    display: block;
+    width: 46px;
+    height: 3px;
+    content: " ";
+    background-color: #4cbdf9;
+    margin: 12px 0;
+}
+
+.sfg2020 .text-center h4.blue-rule::after {
+    margin: 12px auto;
+}
+
+.sfg2020 .blue-background h2::after {
+    height: 9px;
+    background-color: #b7e5fd;
+    margin: 7px 0;
+}
+
+.sfg2020 h3 {
+    font-size: 1.7em;
+    letter-spacing: -.015em;
+    color: #000;
+    margin-bottom: 37px;
+}
+
+.sfg2020 h3.banner {
+    margin-bottom: 43px;
+}
+
+.sfg2020 .banner__block .grid-container,
+.sfg2020 .banner__block .wide-container {
+    position: relative;
+    min-height: 565px;
+}
+
+.about-us .sfg2020 .banner__block .grid-container {
+    position: relative;
+    min-height: 573px;
+}
+
+.sfg2020 .banner__image-background.image--bottom-right {
+    position: absolute;
+    right: -190px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.about .sfg2020 .banner__image-background.image--bottom-right {
+    right: 0;
+    width: 47.3%;
+    background-image: url(../images/about_us/BrandonCasey.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center center;
+}
+
+.about .sfg2020 .banner__image-background.image--bottom-right img {
+    max-width: 48vw;
+}
+
+.sfg2020 .banner__image-background.image--bottom-left {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.sfg2020 .blue-background .banner__image-background.image--bottom-right {
+    right: 0px;
+    z-index: 1;
+    text-align: right;
+}
+
+.sfg2020 .banner__content--left {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.sfg2020 .blue-background .banner__content--left {
+    padding: 65px 50px 0 10.5%;
+}
+
+.sfg2020 .banner__content--right {
+    margin: 25px 0 0 55.4%;
+    width: 30%;
+    padding-top: 80px;
+    position: relative;
+    z-index: 2;
+}
+
+.sfg2020 .section {
+    margin-top: 35px;
+}
+
+.sfg2020 a.cta__button {
+    display: inline-block;
+    background-color: #4cbdf9;
+    color: #fff;
+    padding: 6px 26px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 800;
+    margin-top: 11px;
+}
+
+.sfg2020 .banner__block a.cta__button {
+    font-size: 1.5em;
+}
+
+.sfg2020 .blue-background a.cta__button {
+    background-color: #fff;
+    color: #000;
+    font-size: 1.4em;
+}
+
+.sfg2020 .two-column__block,
+.sfg2020 .three-column__block,
+.sfg2020 .four-column__block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sfg2020 .two-column__block .column {
+    width: 45%;
+}
+
+.sfg2020 .three-column__block .column {
+    width: 25%;
+}
+
+.sfg2020 .four-column__block .column {
+    width: 21%;
+    padding-top: 33px;
+}
+
+.sfg2020 .module-contaner .four-column__block{
+    padding-bottom:33px;
+}
+
+.about .sfg2020 .four-column__block .column h4,
+.about .sfg2020 .three-column__block .column h4 {
+    font-weight: 600;
+}
+
+.sfg2020 .has-icons .column p {
+    font-size: 1.25em;
+    line-height: 1.45em;
+}
+
+.sfg2020 .column.align-self-center {
+    align-self: center;
+}
+
+.sfg2020 ul {
+    list-style-position: outside;
+    text-indent: -0.5em;
+    padding-left: 0.9em;
+}
+
+.sfg2020 ul li::before {
+    content: "•";
+    position: relative;
+    left: -9px;
+    color: #4cbdf9;
+}
+
+.sfg2020 ul li {
+    margin-bottom: 0.6em;
+}
+
+.sfg2020 .list-inset {
+    margin-left: 35px;
+}
+
+.sfg2020 .blue-background {
+    background-color: #4cbdf9;
+    color: #fff;
+}
+
+.sfg2020 .blue-background h2 {
+    color: #fff;
+    margin-bottom: 39px !important;
+}
+
+.sfg2020 .grey__block--offset {
+    margin-top: 90px;
+    position: relative;
+    padding-bottom: 59px;
+    margin-bottom: 34px;
+}
+
+.sfg2020 .grey__block--offset .grey-banner {
+    background-color: #f3f3f3;
+    height: 87%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.about .sfg2020 .grey__block--offset .grey-banner {
+    height: calc(100% - 125px);
+}
+
+.sfg2020 .wide-container {
+    margin: 0 7vw;
+}
+
+.sfg2020 .has-background-image {
+    position: relative;
+    min-height: 590px;
+}
+
+.sfg2020 .pt-3 {
+    padding-top: 30px;
+}
+
+.sfg2020 .pt-2 {
+    padding-top: 20px;
+}
+
+.sfg2020 .mb-4{
+    margin-bottom:53px;
+}
+
+.sfg2020 .mb-3{
+    margin-bottom:33px;
+}
+
+.sfg2020 .mt-1{
+    margin-top:10px;
+}
+
+.sfg2020 .mt-3{
+    margin-top:30px;
+}
+
+.sfg2020 .mt-5{
+    margin-top:79px;
+}
+
+.sfg2020 .grid-container.mb-4{
+    margin-bottom: 35px;
+}
+
+.sfg2020 .numbered-list__item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.sfg2020 .blog.module-contaner{
+    max-width: 1138px;
+}
+
+.sfg2020 .blog .three-column__block .column {
+    width: 29.5%;
+}
+
+.sfg2020 .item__bullet {
+    background-color: #4cbdf9;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.sfg2020 .item__content {
+    margin-left: 29px;
+}
+
+.sfg2020 .numbered-list__item h3 {
+    margin-bottom: 14px;
+}
+
+.sfg2020 .numbered-list__item h4 {
+    font-weight: 600;
+    color: #4cbdf9;
+    font-size: 1.4em;
+    letter-spacing: -.01em;
+}
+
+.sfg2020 .numbered-list__item ul {
+    margin-left: 0.05rem;
+}
+
+.sfg2020 .numbered-list__item ul li {
+    margin-bottom: 0.45em;
+}
+
+.sfg2020 .numbered-list__item p {
+    line-height: 1.55em;
+    font-size: 1.35em;
+}
+
+.sfg2020 .footnote {
+    font-size: .7em;
+    color: #c2c2c2;
+    margin-bottom: 3em;
+}
+
+.sfg2020 .grey__block {
+    background-color: #f3f3f3;
+}
+
+.mortgage_protection #hide-quote,
+.mortgage_protection #hide-quote-line {
+    display: none;
+}
+
+.about #hide-quote,
+.about #hide-quote-line {
+    display: none;
+}
+
+.age-form-field {
+    width: 100%;
+}
+
+.padding-right-form-div {
+    padding-right: 12px;
+}
+
+.sfg2020 .blue-background .banner__image-background img {
+    width: 58vw;
+}
+
+.sfg2020 .blog-new-large-postinfo-topic {
+    margin-top: 17px;
+}
+
+.field-has-error {
+    border: 1px solid red;
+}
+
+.error-messages {
+    display: block;
+    width: 100%;
+}
+
+.error-messages>ul.errorlist {
+    border: 1px solid #ff0000;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+.error-messages>ul.errorlist>li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 800;
+    color: #ff0000;
+    font-size: .75em;
+    line-height: 1em;
+}
+
+
+.error-messages>ul.errorlist>li ul {
+    display: inline-block;
+    font-weight: 400;
+}
+
+.sfg2020 .custom--top500 {
+    font-size: 99.5%;
+    text-align: center;
+}
+
+.sfg2020 .custom--top500 h2 {
+    font-size: 3.9em !important;
+    font-weight: 300;
+    letter-spacing: .015em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0 auto !important;
+}
+
+.sfg2020 .custom--top500 h2::after {
+    display: none;
+}
+
+.sfg2020 .custom--top500 h2 strong {
+    font-weight: 800;
+}
+
+.sfg2020 .custom--top500 h3 {
+    font-size: 2.4em !important;
+    line-height: 0.35em;
+    margin-top: 0.7em;
+    text-transform: uppercase;
+    margin-top: .7em !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 0 !important;
+}
+
+.sfg2020 .custom--top500 .strong-blue {
+    font-weight: 800;
+    color: #4cbdf9;
+    font-size: 1.06em !important;
+}
+
+.sfg2020 .custom--top500 .year-date {
+    margin: 0 .69em;
+}
+
+.sfg2020 .custom--top500 span:nth-of-type(2) {
+    margin-left: 2.1em;
+}
+
+.sfg2020 .custom--top500 span:last-of-type {
+    margin-right: 0px;
+}
+
+.sfg2020 .custom--top500 h3:last-of-type {
+    font-size: 2.2em !important;
+    letter-spacing: -.005em;
+    margin-top: 1.15em !important;
+}
+
+
+.about .sfg2020 h1{
+    font-size: 4em;
+    margin-top: 16px;
+}
+
+.about .sfg2020 .four-column__block.section {
+    margin-top: 35px;
+}
+
+.sfg2020 .has-icons .column img{
+    margin-bottom:22px;
+}
+
+.about .sfg2020 a.cta__button {
+    display: inline-block;
+    background-color: #4cbdf9;
+    color: #fff;
+    padding: 6px 26px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.sfg2020 .blog-text .cms-plugin-text-node{
+    font-size: 1em;
+    line-height: 1.55em;
+}
+
+.sfg2020 .mobile-only{
+    display: none;
+}
+.sfg2020 .non-mobile-only{
+    display: block;
+}
+
+@media screen and (max-width: 1270px) {
+    .sfg2020 {
+        font-size: 0.85em;
+    }
+
+    .sfg2020 .banner__block,
+    .sfg2020 .grid-container.section.general-width,
+    .sfg2020 .grid-container.general-width.module-contaner {
+        padding: 0 25px;
+    }
+
+    .about-us .sfg2020 .grid-container.general-width.module-contaner {
+        padding-top: 2rem;
+    }
+
+    .sfg2020 .banner__image-background img {
+        width: 76%;
+    }
+
+    .sfg2020 .has-background-image {
+        min-height: 440px;
+    }
+
+    .sfg2020 .banner__content--right {
+        margin: 25px 0 0 61.4%;
+        padding-top: 40px;
+    }
+
+    .sfg2020 .blue-background .banner__content--left {
+        padding: 33px 50px 0 5.5%;
+    }
+
+    .sfg2020 .custom--top500 {
+        font-size: 93%;
+    }
+
+    .sfg2020 .grid-container.general-width.module-contaner.blog{
+        padding-bottom: 35px;
+    }
+
+    .custom--top500{
+        margin-bottom: 75px;
+    }
+
+    .grey__block .grid-container.section.general-width, .sfg2020 .grid-container.general-width.module-contaner {
+        padding: 35px 25px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sfg2020 .custom--top500 {
+        font-size: 80%;
+    }
+
+    .sfg2020 {
+        font-size: 0.8em;
+    }
+
+    .sfg2020 .grid-container {
+        margin: 0 5vw;
+        font-size: 0.8em;
+    }
+
+    h4,
+    .h4 {
+        font-size: 1.125rem
+    }
+
+    .sfg2020 .banner__image-background.image--bottom-right {
+        width: 100%;
+        right: 0px;
+    }
+
+    .sfg2020 .banner__content--right,
+    .sfg2020 .banner__content--left {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .about .sfg2020 .banner__content--left{
+        width: 50%;
+    }
+
+    .sfg2020 .wide-container {
+        margin: 0;
+    }
+
+    .sfg2020 .blue-background .banner__content--right,
+    .sfg2020 .blue-background .banner__content--left {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .sfg2020 .pt-3 {
+        padding-top: 15px;
+    }
+
+    .sfg2020 .pt-2 {
+        padding-top: 10px;
+    }
+
+    .sfg2020 .item__bullet {
+        font-size: 2.9em;
+    }
+
+    .sfg2020 .three-column__block .column {
+        width: 30%;
+    }
+
+    .sfg2020 .banner__content--right .cta__button {
+        float: right;
+    }
+
+    .mortgage_protection #sticky-footer-hide {
+        display: none;
+    }
+
+    
+    .about-us .sfg2020 .banner__block .grid-container {
+        position: relative;
+        min-height: 423px;
+    }
+    .blog-new-small-title {
+        font-size: 1.7em;
+        line-height: 1.2;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about-us .sfg2020 .banner__block .grid-container.general-width.module-contaner{
+        padding-left:0;
+        margin-left:0;
+    }
+    
+}
+
+@media screen and (max-width: 736px) {
+    .sfg2020 .custom--top500 {
+        font-size: 50%;
+    }
+
+    .sfg2020 h3 {
+        margin-bottom: 15px;
+    }
+
+    .sfg2020 h1 {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    h4,
+    .h4 {
+        font-size: 0.925rem;
+    }
+
+    .sfg2020 .banner__content--right,
+    .sfg2020 .banner__content--left {
+        width: 100%;
+    }
+
+    .about .sfg2020 .banner__image-background.image--bottom-right{  
+        position:relative;
+    }
+    .about .sfg2020 .banner__content--left{
+        width:100%;
+    }
+    .sfg2020 .banner__block .grid-container.general-width.module-contaner{
+        padding-right:0;
+        padding-left: 0;
+    }
+    .sfg2020 .mobile-only{
+        display:block;
+    }
+    .sfg2020 .non-mobile-only{
+        display:none;
+    }
+
+
+    .sfg2020 h1 {
+        font-size: 3.15em;
+    }
+
+    .sfg2020 .two-column__block .column,
+    .sfg2020 .three-column__block .column,
+    .sfg2020 .blog .three-column__block .column {
+        width: 100%;
+    }
+
+    .sfg2020 .four-column__block .column {
+        width: 50%;
+    }
+
+    .sfg2020 .column.mobile-mt-3{
+        margin-top :30px;
+    }
+
+    .sfg2020 .mt-5{
+        margin-top:40px;
+    }
+
+    .sfg2020 .grid-container.general-width.module-contaner.has-custom--top500{
+        padding: 0 0px;
+        margin-top: 50px;
+    }
+    .sfg2020 .custom--top500 {
+        font-size: 42%;
+    }
+
+    .sfg2020 .banner__block .grid-container {
+        min-height: auto;
+    }
+
+    .about-us .sfg2020 .banner__block .grid-container{
+        min-height: 325px;
+    }
+
+    .sfg2020 .banner__image-background img {
+        width: 100%;
+    }
+    .sfg2020 p, .sfg2020 ul li {
+        font-size: 1.6em;
+        line-height: 1.55em;
+    }
+
+    .sfg2020 h3 {
+        font-size: 1.95em;
+    }
+    .sfg2020 .banner__content--right, .sfg2020 .banner__content--left {
+        width: 86%;
+    }
+    .sfg2020 .blue-background .banner__image-background img {
+        width: 90vw;
+    }
+
+    .sfg2020 .blue-background h2 {
+        margin-bottom: 0px !important;
+        font-size: 2em;
+    }
+
+    .sfg2020 .banner__content--right .cta__button{
+        float: none;
+    }
+
+    .sfg2020 .blue-background .banner__image-background.image--bottom-right img{
+        width: 67vw;
+    }
+
+    .sfg2020 .grid-container.section.general-width{
+        margin-top:52px;
+    }
+
+    .sfg2020 .item__bullet {
+        font-size: 2.4em;
+    }
+
+    .sfg2020 .item__content {
+        margin-left: 19px;
+    }
+
+    .sfg2020 .item__bullet {
+        width: 30px;
+        height: 30px;
+    }
+
+    .sfg2020 .numbered-list__item {
+        margin-bottom: 13px;
+    }
+
+    .sfg2020 .learn-more{
+        padding-top:30px;
+        margin-bottom:35px;
+    }
+
+    .sfg2020 .blog .column{
+        margin-bottom:30px;
+    }
+}
